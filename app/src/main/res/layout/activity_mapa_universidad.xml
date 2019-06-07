@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapaUniversidad">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/EditTextBuscar"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:completionThreshold="3"
+            android:hint="Buscar un lugar"
+            android:inputType="text"
+            android:textColorHint="@color/azul"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ButtonBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/EditTextBuscar"
+            android:background="@color/azul"
+            android:text="Buscar"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="E.P" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/distance" />
+
+        <TextView
+            android:id="@+id/DistanceTextView"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/walk" />
+
+        <TextView
+            android:id="@+id/WalkTextView"
+            android:layout_width="82dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bike" />
+
+        <TextView
+            android:id="@+id/BikeTextView"
+            android:layout_width="99dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="41dp">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:text="E.S"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/distance" />
+
+        <TextView
+            android:id="@+id/DistanceTextViewES"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/walk" />
+
+        <TextView
+            android:id="@+id/WalkTextViewES"
+            android:layout_width="82dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bike" />
+
+        <TextView
+            android:id="@+id/BikeTextViewES"
+            android:layout_width="99dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/returnn" />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:context=".MapaUniversidad" />
+    </RelativeLayout>
+
+
+</LinearLayout>

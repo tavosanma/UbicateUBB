@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/createMarker"
+            android:icon="@drawable/crear_marcador"
+            android:title="Crear Marcador" />
+        <item
+            android:id="@+id/updateAndDeleteMarker"
+            android:icon="@drawable/update_marker"
+            android:title="Editar/Borrar Marcador" />
+
+        <item
+            android:id="@+id/configuration"
+            android:icon="@drawable/configuration"
+            android:title="Cambiar Usuario/Contraseña" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/exit"
+                android:title="Login Administrador" />
+            <item
+                android:id="@+id/menu"
+                android:icon="@drawable/menu"
+                android:title="Menú Principal" />
+
+        </menu>
+    </item>
+
+</menu>

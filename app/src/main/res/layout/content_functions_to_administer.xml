@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FunctionsToAdminister"
+    tools:showIn="@layout/app_bar_functions_to_administer">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:text="Crear Marcador"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:text="@string/CreateMarker"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:text="Editar Marcador"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:text="@string/UpdateMarker"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:text="Modificar Marcador"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/negro"
+        android:text="@string/UpdateMarker"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

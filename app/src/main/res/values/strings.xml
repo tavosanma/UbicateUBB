@@ -1,0 +1,328 @@
+<resources>
+    <string name="BANNER">ca-app-pub-8377806524744957/2404800783</string>
+    <string name="admob">ca-app-pub-8377806524744957~3684424569</string>
+    <string name="app_name">Ubicate UBB</string>
+    <string name="title_activity_mapa_universidad">Map</string>
+    <string name="RememberThat">Recuerda que:Debes tener activado el GPS y estar conectado a internet wifi-ubb:conocimiento2011 Wifi-Bibliotecas:Red-Bibliotecas</string>
+    <string name="CreateMarker">Recuerda que para crear un marcador debes un momento presionar en el mapa y además, debes completar
+    los campos que son necesarios para crear un marcador.</string>
+    <string name="UpdateMarker">Recuerda que para modificar un marcador debes ingresar el título de éste, que es la clave primaria
+    y esperar a recibir la información del marcador si es que existe.</string>
+    <string name="DeleteMarker">Recuerda que debes ingresar el título del marcador y posteriormente confirmar si es que deseas
+    eliminar un marcador.</string>
+    <string name="user">RUT</string>
+    <string name="password">Contraseña</string>
+    <string name="enter">Ingresar</string>
+    <string name="title_activity_functions_to_administer">FunctionsToAdminister</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_marker">Map</string>
+    <string name="InfoRemember">Para crear un marcador, mantén presionado unos segundos en el mapa y luego agrega los datos. Recuerda que una vez agregado el primer marcador, los demás desaparecerán.</string>
+    <string name="title">Título para Marcador</string>
+    <string name="snippet">Subtítulo para Marcador</string>
+    <string name="create">Crear</string>
+    <string name="returnn">Volver</string>
+    <string name="AcademicosDepCienciasBasicas">Acádemicos Del Departamento De Ciencias Básicas</string>
+    <string name="AdminCentral">Administración Central</string>
+    <string name="AulaMagna">Aula Magna Fernando May</string>
+    <string name="AulaA">Aulas A</string>
+    <string name="AulaB">Aulas B</string>
+    <string name="AulaC">Aulas C</string>
+    <string name="AulaD">Aulas D</string>
+    <string name="AulaE">Aulas E</string>
+    <string name="BibliotecPrincipal">Biblioteca Principal</string>
+    <string name="Guardias">Cabina De Vigilancia De La Universidad Del Bío-Bío</string>
+    <string name="Cafeteria">Cafetería Universidad Del Bío-Bío</string>
+    <string name="Camarines">Camarines UBB</string>
+    <string name="CanchaDiseño">Cancha de Football Diseño Gráfico</string>
+    <string name="Tenis">Canchas De Tenis</string>
+    <string name="CasaPatronal">Casa Patronal</string>
+    <string name="CasinoMartaColvin">Casino Marta Colvin</string>
+    <string name="CasinoUBB">Casino UBB</string>
+    <string name="CentroSimulacionEnfermeria">Centro De Simulación De Enfermería</string>
+    <string name="DepartamentoCienciasBasicas">Departamento De Ciencias Básicas</string>
+    <string name="DDE">Dirección de Desarrollo Estudiantil</string>
+    <string name="DiseñoGrafico">Diseño Gráfico</string>
+    <string name="EstadioUBB">Estadio UBB</string>
+    <string name="FacultadSaludAlimentos">Facultad De Ciencias De La Salud Y De Los Alimentos</string>
+    <string name="FACE">Facultad De Ciencias Empresariales</string>
+    <string name="FEDE">Federación Universidad Del Bío-Bío</string>
+    <string name="GYMFM">Gimnasio Central Fernando May</string>
+    <string name="GYMMultitaller">Gimnasio MultiTaller</string>
+    <string name="LECYCA">Laboratorio De Experimentación, Control Y Certificación De La Calidad De Los Alimentos</string>
+    <string name="FCSA">Facultad De Ciencias De La Salud Y De Los Alimentos</string>
+    <string name="LabProcesosAlimentos">Laboratorio De Procesos De Alimentos</string>
+    <string name="LabCentralesCompu">Laboratorios Centrales De Computación</string>
+    <string name="Museo">Museo Marta Colvin</string>
+    <string name="newDepaCienciasBasicas">Nuevo Departamento De Ciencias Básicas</string>
+    <string name="OficinaPartes">Oficina De Partes</string>
+    <string name="Psicologia">Psicología</string>
+    <string name="nuevoDepInvestigadores"> Nuevo Departamento De investigadores</string>
+    <string name="Lavadora">Sistema De Lavandería</string>
+    <string name="VRIP">Vicerrectoría De Investigación Y Postgrado</string>
+    <string name="PrevencionDeRiesgos"><![CDATA[<b><font color=#FF0000>Unidad De Prevencion De Riesgos</font></b>]]></string>
+    <string name="PrimerosAuxilios"><![CDATA[<b><font color=#FF0000>Sala De Primeros Auxilios</font></b>]]></string>
+    <string name="AreaDesarrolloPedagogicoTecnologico"><![CDATA[<b><font color=#FF0000>Oficina De Área De Desarrollo Pedagógico Y Tecnológico</font></b>]]></string>
+    <string name="DepActFisicaDeportesRecreacion"><![CDATA[<b><font color=#FF0000>Departamento De Actividad Fisica, Deportes Y Recreación</font></b>]]></string>
+    <string name="JefeDepDeportesRecreacion"><![CDATA[<b><font color=#FF0000>"Jefe De Departamento De Deportes Y Recreación"</font></b>]]></string>
+    <!--#0000FF AZUL colocar en java class-->
+    <!-- \u000A Unicode caracter Salto de linea coloca en text xml class-->
+    <string name="CasaCentralInfo2">Además, la Administración Central cuenta con las siguientes áreas y funciones importantes:\u000A\u000A* Dirección De Postgrado.\u000A* Departamento De Pregrado Chillán.\u000A* Unidad De Gestión Curricular Y Monitoreo.\u000A* Unidad De Formación Integral Para Tutores(Sala UFI).\u000A* Admisión Y Registro Académico.
+\u000A* Dirección De Administración Y Presupuesto.\u000A* Departamento De Personal.\u000A* Departamento De Servicios Tecnológicos (DST), encargados de administrar los recursos de redes, software,
+        datos, hardware y telefónicos de la Universidad.\u000A* Subdirección De Investigación.
+    \u000A* Cajero Automático.\u000A* Petición Para Certificado De Alumno Regular.\u000A* Cobranzas Para Cancelar La Matrícula.</string>
+
+    <string name="CasaCentralInfo1">La Casa Central realiza las siguientes actividades.\u000A \u000A
+        * Administrar el proceso de admisión y matrícula a las carreras y programas de pregrado regular pertenecientes a la Universidad del Bío-Bío.\u000A \u000A
+    * Registrar, controlar y almacenar la información académica del estudiante y de las mallas curriculares de todas las carreras de pregrado, programas de postgrado, diplomados y postítulos, impartidos por la Universidad, velando por el fiel cumplimiento de la reglamentación legal vigente.\u000A \u000A
+    * Certificar la trayectoria académica de todos los estudiantes de la Universidad del Bío-Bío.\u000A \u000A
+    * Generar y validar estadísticas académicas en su ámbito de acción, según requerimientos internos y externos a la institución para análisis y toma de decisiones.\u000A\u000A
+    * Inscripción para las asignaturas de formacines integrales.</string>
+
+    <string name="SalaMultiUso"><![CDATA[<b><font color=#FF0000>"Sala Multiuso"</font></b>]]></string>
+    <string name="Conferencias"><![CDATA[<b><font color=#FF0000>"Conferencias"</font></b>]]></string>
+    <string name="Titulaciones"><![CDATA[<b><font color=#FF0000>"Titulación"</font></b>]]></string>
+    <string name="Ceremonias"><![CDATA[<b><font color=#FF0000>"Ceremonias"</font></b>]]></string>
+    <string name="Seminarios"><![CDATA[<b><font color=#FF0000>"Seminarios"</font></b>]]></string>
+
+    <string name="Aulas"><![CDATA[<b><font color=#0000FF>A1FM Hasta A6FM</font></b>]]></string>
+    <string name="Fotocopia"><![CDATA[<b><font color=#0000FF>Fotocopiadora</font></b>]]></string>
+    <string name="anillado"><![CDATA[<b><font color=#0000FF>Anillados</font></b>]]></string>
+    <string name="FotocopiaPrecios">* Fotocopia, impresión, reducción: 20 pesos.\u000A\u000A* Anillados: 1-40 hojas a 400 pesos.\u000A41-60 hojas a
+    500 pesos.\u000A61-80 hojas a 600 pesos.\u000A81-100 hojas a 800 pesos.\u000A101-150 hojas a 1000 pesos.\u000A151-200
+    hojas a 1300 pesos.\u000A201+ a 2000 pesos.\u000A\u000A* Horarios: lunes a viernes de 08:30 a 12:30 hrs. y de 14:00 a 18:50 hrs.</string>
+    <string name="SalasEstudio"><![CDATA[<b><font color=#FF0000>"4 Salas De Estudio"</font></b>]]></string>
+    <string name="B1B9"> <![CDATA[<b><font color=#FF0000>"B1FM Hasta B9FM"</font></b>]]></string>
+
+    <string name="LabIdiomas"><![CDATA[<b><font color=#0000FF>Laboratorio De Idiomas</font></b>]]></string>
+    <string name="C1C3"><![CDATA[<b><font color=#0000FF>C1 Hasta C3</font></b>]]></string>
+
+    <string name="SalaAnatomia"><![CDATA[<b><font color=#FF0000>"Sala De Anatomía"</font></b>]]></string>
+    <string name="D1D4"> <![CDATA[<b><font color=#FF0000>"D1FM Hasta D4FM"</font></b>]]></string>
+    <string name="E1E4"> <![CDATA[<b><font color=#FF0000>"E1FM Hasta E4FM"</font></b>]]></string>
+    <string name="TwoSalas"> <![CDATA[<b><font color=#FF0000>"2 Salas De Estudio"</font></b>]]></string>
+
+    <string name="Piesdi"><![CDATA[<b><font color=#0000FF>Sala PIESDI</font></b>]]></string>
+    <string name="BibliotecaInfo1">La Biblioteca Principal de la Universidad Del Bío-Bío ubicada al lado del Casino Principal, apoya la docencia, investigación
+     y extensión de la Universidad, coordinando acciones para que cada estudiante obtenga servicios bibliográficos provistos con
+     oportunidad, equidad y excelencia, en un ambiente de innovación tecnológica, inspirada en los valores universitarios como la reflexión,
+     el pensamiento crítico y la generación de nuevos conocimientos.</string>
+    <string name="BibliotecaInfo3">* Si se desea solicitar el uso de una de estas salas de estudio, en un horario que no coincida con
+     el de atención de la biblioteca, deberá contactarse previamente al Fono: 42 2463111.</string>
+    <string name="BibliotecaInfo4">* La credencial de identificación o cédula de identidad debe ser presentada cada
+    vez que se solicite una prestación de servicios.\u000A\u000A* El usuario debe conservar y devolver el material bibliográfico en las mismas condiciones en que se
+    le fue facilitado.\u000A\u000A* El usuario debe cumplir con los plazos de devolución otorgados por la Biblioteca, en caso contrario
+    el usuario será castigado y no se le prestarán servicios hasta que la secretaria lo decida.\u000A\u000A* El usuario debe dar un buen uso
+     a las instalaciones y cuidar el mobiliario de las Bibliotecas.</string>
+    <string name="BibliotecaInfo6">* El Sistema de Biblioteca cuenta con préstamos de Notebooks para sus estudiantes.\u000A\u000A* Wifi: Wifi-Biblioteca\u000A\u000A* Contraseña: Red-Bibliotecas</string>
+
+    <string name="InfoGuardias">Los Guardias de la Cabina De Seguridad ubicada en la entrada de la Universidad del Bío-Bío, realizan
+        las siguientes funciones:\u000A\u000A* Vigilancia perimetral completa de la Universidad.\u000A\u000A* Control de acceso.\u000A\u000A* Revisión
+        de camaras.\u000A\u000A* Realizan turnos de 12 horas, vigilando la Universidad en todo momento.\u000A\u000A* Encendido y apagado de luces.\u000A\u000A* Activación
+        y desactivación de alarmas.\u000A\u000A* Entrega de llaves para la Federación de estudiantes, solo a los
+        presidentes de su carrera.</string>
+    <string name="InfoCafeteria">La cafetería ubicada al costado del Departamento De Ciencias Básicas,
+    cuenta con una sala de estar para que los estudiantes puedan conversar, estudiar o bien comer de los exquisitos
+    productos que este lugar ofrece. Además, la Cafetería cuenta con un termo para que los alumnos puedan servirse de un rico
+    y caliente café, que los anime a seguir con sus estudios.\u000A\u000A Los horarios en que la cafetería está abierta son de 08:30 a 19:15 hrs.</string>
+
+    <string name="InfoCamarines">Los Camarines ubicados al costado del Estadio UBB, dispone de duchas calientes para
+    sus estudiantes que deseen bañarse después de una ardua jornada de deporte. Para poder usar las duchas y prender
+    el calefón, se debe hablar con Don Jorge Espinoza que es el encargado de los Camarines y de otras actividades.\u000A\u000A
+    Como información adicional, Don Jorge Espinoza además, hace préstamos del Estadio UBB, implementos para ping-pong y pelotas de football y tenis.</string>
+
+    <string name="InfoCanchaDisenio">La Cancha De Football ubicada al final de la Universidad, en el sector Marta Colvin,
+    es un lugar para la recreación de los estudiantes, más para los alumnos de Diseño Gráfico y Psicología.\u000A\u000A
+    Se debe mencionar que, la cancha no está disponible para la temporada de invierno, más solo para la de verano
+    que comienza a partir del 5 de noviembre de 2018, lo cual para su uso debe ser solicitada a la señorita Andrea Zapata
+    ubicada en la Casa Patronal que se encuentra al costado de la cancha.</string>
+
+    <string name="InfoCanchasDeTenis">La Cancha de Tenis ubicada al costado del Estadio UBB, cuenta con dos
+    pistas para que los alumnos de la Universidad del Bío-Bío puedan practicar de esta interesante rama deportiva.\u000A\u000ALa Universidad cuenta con un taller para este deporte, la cual es impartida por el profesor Francisco Álvarez (Fco.alvarez@hotmail.com).</string>
+
+    <string name="InfoCasaPatronal">La Casa Patronal ubicada en el sector Marta Colvin, al costado de la Cancha De Diseño,
+    cuenta con oficinas para los docentes de Diseño Gráfico. Además, en ella se encuentra la oficina de la secretaria Andrea Zapata
+    que se encarga de los proyectos de extensión, préstamos para la Cancha de Diseño y cumple con funciones para el área
+    administrativa, que tiene que ver con los contratos y honorarios de los profesores.</string>
+    <string name="BibliotecaMartaColvin">Biblioteca Marta Colvin</string>
+    <string name="InfoCasaPatronal2">La Casa Patronal posee en su interior la Biblioteca Marta Colvin, la cual cuenta
+    con la siguiente información y servicios:\u000A\u000A* Asistente Biblioteca: Emperatriz Nova Bustos (enova@ubiobio.cl).\u000A\u000A* Préstamos de Notebook.\u000A\u000A* Scanner.\u000A\u000A* Préstamos para las salas individuales del Edificio E.
+    \u000A\u000A* Material audiovisual relacionada al área de Psicología y Diseño Gráfico.\u000A\u000A* Computadores para el uso de los estudiantes.\u000A\u000A* Mesa especial para discapacitados.</string>
+
+    <string name="InfoCasinoMartaColvin">El Casino Marta Colvin ubicado al costado de la Casa Patronal, cuenta con exquisitos
+        productos para sus alumnos, para que estos puedan continuar animados y motivados con sus estudios.\u000A\u000ALos horarios de atención del Casino Marta Colvin son de lunes a viernes, desde las 09:30 hasta las 13:30 hrs
+    y de las 14:30 hasta las 17:30 hrs.</string>
+    <string name="InfoCasinoUBB">El Casino Principal ubicado a mano derecha de la Biblioteca Principal,
+    cuenta con la siguiente información y servicios:\u000A\u000A* Horarios de atención: Los horarios de atención son de 08:30 a 17:30 hrs (horario continuado). \u000A\u000A* Se acepta tarjeta Junaeb
+    para la compra de los productos del Casino.\u000A\u000A*Almuerzos: Desde 2000 pesos en adelante y se entregan desde 12:30 hasta 14:30 hrs.\u000A\u000A* Programa Casino: Tiene como objetivo
+    lograr que los estudiantes de la Universidad del Bío-Bío, tengan satisfecha su necesidad básica de alimentación
+    de manera de contribuir a su normal desenvolmiento académico, mediante una beca interna de alimentación.</string>
+    <string name="InfoCentroSimulacion">El Centro De Simulación De Enfermería ubicada al costado de la Facultad De Ciencias De La Salud
+     Y De Los Alimentos, posee para sus estudiantes las siguientes aulas de clases y laboratorios:\u000A\u000A* Centro De Simulación N°1.\u000A\u000A* Centro De Simulación N°2.\u000A\u000A* Centro De Simulación N°3.\u000A\u000A* Laboratorio De Evaluación Del Estado Nutricional.\u000A\u000A* Laboratorio De Experimentación En Técnicas Dietéticas.\u000A\u000A* Unidad De Metabolismo Energético.\u000A\u000A* Laboratorio De Audiología.\u000A\u000A* Laboratorio De Voz.\u000A\u000A* Laboratorio De Habla Y Lenguaje Infantil.\u000A\u000A* Laboratorio De Habla Y Lenguaje Adulto.</string>
+
+    <string name="InfoDepCienciasBasicas">El Departamento de Ciencias Básicas forma parte de la Facultad De Ciencias de la Universidad
+    del Bío-Bío. Sus acciones vinculan la docencia, extensión e investigación al más alto nivel.\u000A\u000AEl edificio
+    cuenta con 4 pisos, los cuales están compuestos por laboratorios, oficinas para docentes y la cafetería. A continuación
+    se menciona como están distribuidas las instalaciones por cada piso.</string>
+    <string name="Piso1">* Cafetería.\u000A\u000A* Baños.\u000A\u000A* Laboratorio De Fitoquímica Ecológica.\u000A\u000A* Laboratorio De
+    Nutrición Aplicada.\u000A\u000A* Laboratorio De Química I.\u000A\u000A* Laboratorio De Química II.\u000A\u000A* Laboratorio
+    De Ecológica Y Evolución/Grupo De Biodiversidad Y Cambio Global (Dra Marcela Vidal).\u000A\u000A* Laboratorio De Toxicología De Alimentos (Dr. José Miguel Bastías).\u000A\u000A* Laboratorio
+    De Biología.\u000A\u000A* Laboratorio De Ecofisiología Vegetal.\u000A\u000A* Laboratorio De Síntesis De Productos Naturales (Dr. Julio Alarcón).\u000A\u000A* Laboratorio
+    De Microestructura Y Modelación De Materiales Morosos.\u000A\u000A* Laboratorio De Microalgas (Ph.D Patricia Arancibia).\u000A\u000A* Laboratorio
+    De Fotoquímica Inorgánica (Gerardo Cabello y Luis Lillo).\u000A\u000A* Laboratorio De Genética Toxicológica.</string>
+    <string name="Piso2">* Baños.\u000A\u000A* Laboratorio De Productos Naturales.\u000A\u000A* Laboratorio De Fisiología.\u000A\u000A* Laboratorio De Biología Celular Y Molecular.\u000A\u000A* Laboratorio
+    De Fisiología Vascular (Carlos Escudero).\u000A\u000A* Laboratorio De Ingeniería En Recursos Naturales.\u000A\u000A* Laboratorio De Análisis
+    De Alimentos.\u000A\u000A* Laboratorio De Fisiología (Mg. Oscar Fuentes).\u000A\u000A* Laboratorio De Física.\u000A\u000A* Sala De Reuniones (Postgrado).\u000A\u000A* Laboratorio
+    De Microbiología De Alimentos.\u000A\u000A* Mencionar, que algunos laboratorios como los de Física y Química serán usados para investigación.Para docencia será en el nuevo Departamento De Ciencias Básicas ubicado en el sector Marta Colvin.</string>
+    <string name="Piso3">Oficina de profesores:\u000A\u000A* Dr. Gerardo Cabello.\u000A\u000A* Dr. Claudio Collado.\u000A\u000A* Dr. Anibal Coronel.\u000A\u000A* Patricio Cumsille.\u000A\u000A* Dr.
+    Luis Fritz.\u000A\u000A* Mg. Elías Irazoqui.\u000A\u000A* Dr. Luis Lillo.\u000A\u000A* Clauido Megí.\u000A\u000A* Dr. Luis Moreno.\u000A\u000A* Dr.
+    Jairo Navarrete.\u000A\u000A* Dr. Andrés Rodriguez.\u000A\u000A* Dr. Fernando Toledo.\u000A\u000A* Dr. Carlos Torres.\u000A\u000A* Mg.
+    Gijsbertus Van der Veer.\u000A\u000A* Dra. Marcela Vidal. \u000A\u000A* Dr. Cristian Villavicencio.\u000A\u000A* Dr. Enrique Werner.\u000A\u000A* Si
+    se desea comunicar con estos profesores, agendar citas con secretarias ubicadas en el nuevo Edificio de Investigadores.</string>
+    <string name="Piso4">* Laboratorio De Genómica Y Biodiversidad (Juan Carlos Marín).</string>
+
+    <string name="InfoDDE">La Dirección De Desarrollo Estudiantil tiene por objetivo, contribuir al crecimiento y desarollo de los y las
+    estudiantes, acogiéndolos como persona desde su realidad, generando espacios de confianzam para el fortalecimiento y adquisición de
+    competencias y habilidades brindando beneficios que les permita enfrentar factores de riesgo social, psicosocial, familiar y económico, para
+    que su permanencia en la Universidad sea más enriquecedora y su formación personal y profesional más integral.</string>
+    <string name="InfoDDE2">A continuación se presenta al grupo de trabajo encargado de brindar apoyo a los estudiantes:\u000A\u000A* Hermila Toledo (htoledo@ubiobio.cl): Jefa Departamento.\u000A\u000A* Carolina Saldias (csaldias@ubiobio.cl): Secretaria.\u000A\u000A* Karina
+    Aedo (kaedo@ubiobio.cl): Encargada TNE y BAES.\u000A\u000A* Eduardo Lorenzen (elorenzen@ubiobio.cl): Atención a las carreras de
+    Ing. en Alimentos, Diseño Gráfico, Fonoaudiología, Psicología, Ing. Civil Informática y Contador Público Auditor.\u000A\u000A* Jacqueline
+    Angulo Cuevas (jangulo@ubiobio.cl): Coordinadora Programa Inclusión de Estudiantes en Situación de Discapacidad(PIESDI).\u000A\u000A* Marcia
+    Inostroza (minostroza@ubiobio.cl): Coordinadora Programa apoyo a Estudiantes Madres/Padres y Programa Psicosocial. Además, atiende
+    a las carreras de Enfermería, Nutrición y Dietética, Pedagogía en Educación Física, Ing. en Recursos Naturales, Ing Comercial
+    y Bachillerato en Ciencias Naturales.\u000A</string>
+    <string name="InfoDDE3">El Departamento De Desarrollo Estudiantil, proporciona a los alumnos atención de consultas por cualquier
+    problema de salud, para su resolución, orientación o derivación a especialistas, de manera de colaborar en su resolución y prevención.
+    Cuenta con Atención Dental, Psicológica, en Salud Sexual, Nutricional y de Enfermería. </string>
+    <string name="InfoDDE4">La atención de los Trabajadores Sociales de la DDE se realiza previa reserva de hora por intranet.\u000A\u000ALos
+    horarios de atención son los siguientes:\u000A\u000A* Lunes: Atención desde las 08:30  hasta 12:15 hrs  y de 14:30 hasta 17:30 hrs.\u000A\u000A* Martes
+    a Viernes: Atención desde las 08:30 hasta las 12:15 hsr.</string>
+
+    <string name="InfoDiseño">En estas instalaciones se desarrolla la labor docente de Diseño Gráfico, a través de aulas,
+    laboratorios y salas audiovisuales y de taller.\u000A\u000AA continuación, se presentan las instalaciones con las cuenta la
+    escuela de Diseño Gráfico, ubicada al final de la Universidad, en el sector Marta Colvin:\u000A\u000A* Sala 1 hasta la 7, las cuales algunas se distribuyen con los siguientes nombres:\u000A\u000A* Taller De Diseño/Sala de
+    presentaciones.\u000A\u000A* Sala De Estudio Personal/Trabajo Colaborativo.\u000A\u000A* Taller De
+    Gráfica.\u000A\u000A* Laboratorio Digital De Diseño 1.\u000A\u000A* Laboratorio Digital de Diseño 2.\u000A\u000A* Centro Diseño Regional
+    (CEDIR)/Fotografía: Sala de iluminación, ubicada en las afueras de la escuela de Diseño.</string>
+    <string name="InfoDiseño2">* Jacqueline Santos Luarte: Jefa de carrera.\u000A* Horarios antención: Agendar cita por correo o con secretaria.\u000A* Correo: jsantos@ubiobio.cl.\u000A\u000A* Regina Luengo Riquelme:
+        Secretaria.\u000A* Horarios atención: Lunes a viernes de 08:30 hasta 18:30 hrs.\u000A* Correo: regina@ubiobio.cl.\u000A\u000A* Laboratorio de Computadores (Taller Diseño): La encargada del funcionamiento de esta sala es
+    la señorita Yaricza Osorio y los horarios de atención van de lunes a jueves, desde las 08:30 hasta las 20:00 hrs y viernes desde 08:30 hasta
+    18:30 hrs.\u000A\u000A* Fotocopia: En las afueras de la Escuela De Diseño, se cuenta con una fotocopiadora para sus alumnos, con un
+    horario de lunes a viernes, desde las 08:30 hasta las 12:30 hrs.\u000A\u000A* Facultad de Arquitectura, Construcción y Diseño: Instalación
+    ubicada en las afueras de la Escuela De Diseño, la cual presenta el horario de atención de la secretaria de la escuela, que van de lunes a
+    viernes, desde las 08:30 hasta las 12:30 hrs y desde las 14:30 hasta las 18:30 hrs.\u000A\u000A* Casino: Ubicada en las afueras de la Escuela
+        De Diseño con un horario de atención de lunes a viernes desde las 09:30 hasta las 13:30 hrs y desde las 14:30 hasta las 17:30 hrs.</string>
+
+    <string name="InfoEstadio">El Estadio UBB ubicado casi al centro de la Universidad, ha sido construido para que los alumnos en general
+    y en particular estudiantes de Educación Fisica, puedan realizar cualquier tipo de actividad fisica, entre ellos football, rugby
+    o bien practicar atletismo, ya que alrededor del Estadio se cuenta con una Pista Atlética.\u000A\u000ASi se desea pedir algún
+    implemento para la realización de algunos de los deportes que se pueden realizar acá o permisos para el uso del Estadio, acercarse
+    a Don Jorge Espinoza ubicado al costado de los Camarines o hablar con los encargados del Gimnasio Multitaller.</string>
+
+    <string name="InfoFEDE">La Federación de la Universidad ubicada detrás de los Laboratorios Centrales De Computación, cumple
+    con las siguientes dos funciones:\u000A\u000A* Recepción de estudiantes para renovación y pegado de sello para la
+    Tarjeta Nacional del Estudiante (TNE) cuando corresponda.\u000A\u000A* Sirve como sala de ensayo de música, ya que cuenta con 2 salas para aquello, por
+    lo que si se quiere usar, se debe pedir las llaves a los guardias de la Universidad, ubicados en la entrada principal.</string>
+    <string name="infoGimnasioCentral1">El Gimnasio Central se encuentra ubicado al frente de el Aula Magna, cuenta con duchas para sus alumnos,
+        con una cancha de piso flotante, y a su costado cuenta con oficinas para los académicos del departamento de Ciencias Básicas, siendo
+        una de ellas de la señorita Karina Vidal, secretaria del departamento de Actividad Fisica, Deportes y Recreación.
+    </string>
+    <string name="infoGimnasioCentral2">La cancha ubicada en el interior del Gimnasio, en su mayor tiempo es utilizada por profesores que realizan clases
+    a sus alumnos ya sea de Volleyball, Basquetball, Football, Taekwondo, entre otros, sin embargo, si los alumnos desean usarla fuera del horario de clases, es necesario pedir con anticipación permiso a los auxiliares encargados, así como también, el uso
+        de los implementos del Gimnasio, como pelotas y paletas de pinpon, pelotas de football, pelotas para pesas, etc.</string>
+
+    <string name="InfoGymMultitaller">El Gimnasio Multitaller ubicado al frente de las Aulas D, cuenta con 4 salas para que los estudiantes de la Universidad
+    puedan realizar deportes o actividades físicas o bien profesores dictar clases relacionadas a lo mismo. A continuación, se presentan el funcionamiento de las 4 salas:  </string>
+
+    <string name="infoGYMGT1FM">Primera sala ubicada al llegar a la entrada del Gimnasio, la cual es una aula de clases en donde los profesores
+    de la Universidad imparten sus asignaturas con el objetivo de lograr el aprendizaje en sus estudiantes.</string>
+    <string name="infoSalaDeMaquinas">Ubicada al lado de la aula GT1FM, esta sala cuenta para sus estudiantes con máquinas de ejercicios para
+        tonificación del abdomen, fortalecimiento de muslos y pernas, fortalecimiento de brazos y biceps, entre otras.</string>
+    <string name="infoSalaHalterofilia">Sala especial para los alumnos que deseen practicar la halterofilia, deporte que consiste
+        en el levantamiento de pesas, por lo que la sala provee de implementos necesarios para practicarla.</string>
+    <string name="infoSalaBiciletas">Sala ubicada al final del pasillo del Gimnasio, la cual cuenta con múltiples
+    bicicletas estáticas para los estudiantes de la Universidad, con la función de generar musculatura
+    y resistencia en las piernas.</string>
+    <string name="infoGymTaller">ubicado en el centro del Gimnasio Multitaller, esta sala está destinada para que los profesores
+    puedan realizar a sus alumnos talleres o clases como Yoga, Danza, Tenis de mesa, Vida saludable, Karate, entre otros. </string>
+
+    <string name="infoLECYCA">LECYCA, ubicado al lado del Laboratorio De Procesos De Alimentos, es un laboratorio que presta
+    servicios de ensayo y análisis destinados a la industria local y al desarrollo de docencia e investigación de vanguardia. Recientemente
+    ha recibido la certificación por parte del INN. A continuación se presentan las funciones y las salas del laboratorio:\u000A\u000A* Servicios de análisis de alimentos y aguas.\u000A\u000A* Entrega
+    de muestras de agua de lunes a viernes de 08:30 a 12:00 hrs.\u000A\u000A* Retiro de informes de lunes
+        a viernes de 08:30 a 12:00 hrs. y de 14:30 a 17:00 hrs.\u000A\u000A* Análisis químico y muestreo para alimentos.\u000A\u000A* Estudio de proyectos.\u000A\u000A* Laboratorio Sensorial.\u000A\u000A* Sala De Reuniones.\u000A\u000A* Laboratorio De Microbiología.\u000A\u000A* Sala
+    De Instrumental.\u000A\u000A* Laboratiorio De Bromatología.\u000A\u000A* Oficinas Personal.\u000A\u000A* Bodegas De Materiales. \u000A\u000A* Laboratorio
+        De Química.\u000A\u000A* Sala De Control De Calidad. </string>
+
+    <string name="infoMuseoMartaColvin">Marta Colvin es uno de los referentes artísticos que más enorgullecen a Chillán, a la Región del Biobío y a Chile.\u000A\u000AVivió gran parte de su vida en la casona del fundo “El Mono”, propiedad de su marido, don Fernando May
+        Didier.\u000A\u000AAquí se encuentra una significativa muestra de la obra de la artista, compuesta por esculturas, pinturas y esquemas para el deleite de quienes visitan sus dependencias.\u000A\u000AEl museo está abierto a todo público  de martes a sábado, en horario de 10:00 a 12:30 en la mañana, y de 14:30 a 18:30 en la tarde, ofrece visitas guiadas a colegios y grupos culturales previa concertación de cita.</string>
+
+    <string name="infoNewDepCiencias">El nuevo Departamento De Ciencias Básicas y Laboratorios De Docencia instalados e ubicados
+    al final de la Universidad, cuenta con las siguientes salas y laboratorios:\u000A\u000A* Laboratorio de Biología I (primer piso).\u000A\u000A* Laboratorio
+    De Biología II (primer piso).\u000A\u000A* Sala DE Tablero De Redes.\u000A\u000A* Sala De Control Del Ascensor.\u000A\u000A* Sala De Preparación De Reactivos (segundo piso).\u000A\u000A* Sala De Pre-Practicos De Biología.\u000A\u000A* Mencionar que,
+    estos laboratorios ubicados en el antiguo Departamento De Ciencias Básicas se usarán para investigación.</string>
+
+    <string name="infoDepPartes">Ubicado en la Autopista de la universidad, al lado de la Federación, la Oficina De Partes cuenta con las
+    siguienes salas y funciones:\u000A\u000A* Sala De Inventario, la cual registra todos los bienes de la Universidad.\u000A\u000A* Sala De Abastecimiento, Registro y abastecimiento de materiales de oficina.\u000A\u000A* Mantención
+        y movilización para los estudiantes.\u000A\u000A* Salida y control de vehiculos internos.\u000A\u000A* Llevar a funcionarios a las reuniones.\u000A\u000A* Mantenciones
+        internas (comprar materiles, cambios de llaves y ventanas, mantenciones pequeñas).\u000A\u000A* Instalación de Amplificadores.\u000A\u000A* Traslados hacia otras Universidades.\u000A\u000A* Recepción
+        de Correspondencia.\u000A\u000A* Convalidación de ramos para los alumnos.\u000A\u000A* Renuncias definitivas.\u000A\u000A* Pérdida
+        de carrera.\u000A\u000A* Traslados internos.\u000A\u000A* Recepción facturas del Casino.\u000A\u000A* Horarios de atención desde las 08:15 a 12:30 hrs
+        y de 14:15 a 18:15 hrs.</string>
+    <string name="infoLabAlimentos">En este Laboratorio De Procesos De Alimentos, ubicado al lado de LECYCA, existe la infraestructura necesaria
+    para desarrollar, implementar y enseñar a sus estudiantes, las técnicas necesarias de elaboración de alimentos industriales. Muchos
+    de sus procesos hoy en día son innovaciones que apoyan a la industria regional.\u000A\u000AEl Laboratorio cuenta, con las siguientes salas o laboratorios para diseñar y manejar
+    los procesos de transformación de materias primas y conservación de productos alimenticios, así como la optimización de procesos ya existetes:\u000A\u000A* Laboratorio
+    De Evaluación Sensorial.\u000A\u000A* Sala De Procesos De Alimentos.\u000A\u000A* Sala De Preparación De Muestras.\u000A\u000A* Sala De Estudio Para Magister
+    En Ciencias E Ingeniería En Alimentos.</string>
+
+    <string name="infoLabCentrales1">Los Laboratorios Centrales De Computación, ubicados al lado de FACE, cuenta con modernas instalaciones para
+    la enseñanza y práctica de la computación e informática general y de especialidad.</string>
+    <string name="infoLabCentrales2">* Préstamos de notebooks hasta las 6:30 hrs, para lo cual debe ser solicitado con su cédula de identidad.\u000A\u000A* Uso de computadores
+    del laboratorio, por lo que debe ser solicitado con su pase escolar.\u000A\u000A* Préstamos de camara fotográfica para alumnos de Informática.\u000A\u000A* Servicios de Impresión, que pueden ser cancelados con tu Cuenta Face proveídos por la Facultad, en el que viene incluído dinero para este propósito, más solo
+    debes proporcionar tu RUT.\u000A\u000A* Préstamos de las salas.\u000A\u000A* Scanner.\u000A\u000A* Confección de CDs para Tesis.\u000A\u000A* Horarios de atención: lunes a viernes de 08:00 a 12:00 hrs y de 14:00 a 18:00 hrs.</string>
+
+    <string name="infoLabCentrales3">* Sala De Laboratorio 1 y 2, para la realización de clases.\u000A\u000A* Laboratorio De Especialidad 1 , para la realización de clases de la carrera de Informática y contiene los Servidores(Routers y Switches) de la Universidad.\u000A\u000A* Sala De Laboratorio 3, para el uso de sus computadores.\u000A\u000A* Sala
+    De Laboratorio 4, como sala de estudio.\u000A\u000A* Sala De Video Conferencia, para charlas y reuniones.\u000A\u000A* Sala LC1 y LC2, para la realización de clases.\u000A\u000A* Laboratorio De Especialidad 2, como oficina de profesores y préstamos
+    de notebooks para alumnos de Informática, por lo que deben acercarse con el Profesor Fernando Santolaya.</string>
+
+    <string name="infoPsicologia1">La Escuela de Psicología ubicada en el sector Marta Colvin, tiene por objetivo la formación integral de psicólogos generalistas
+    con un sello psicosocial, con egresados vinculados con el medio como agentes de desarrollo y cambio social, con un desarrollo teórico,
+    metodológico y práctico en los diferentes ámbitos de la disciplina.</string>
+    <string name="infoPsicologia3">* Sala 1 y 2 para realización de clases.\u000A\u000A* Laboratorio De Psicología.\u000A\u000A* Box 1
+    y Box 2.\u000A\u000A* Sala Espejo. \u000A\u000A* Sala Para Psicoterapia.\u000A\u000A* Sala De Estudio.\u000A\u000A* Oficinas De Docentes.</string>
+
+    <string name="LavanderiaInfo">Esta instalación está ubicada en el sector Marta Colvin, al frente de la Casa Patronal, y cumple
+    la función de proveer un Sistema de Lavandería para los alumnos de la Universidad, que permite el lavado de ropa a estudiantes que no posean
+    de esta primordial necesidad.\u000A\u000A Para el uso de la lavadora es necesario pedir una autorización a la secretaria Hilda Carriel de la Escuela De Psicología.</string>
+
+    <string name="vripInfo">Este Departamento ubicado en cercanías de la Facultad de Ciencias Básicas, es la unidad que lidera los procesos
+    de generación y transmición de conocimiento científico, creación artística, innovación y formación de capital humano avanzado, proponiendo, implementando
+    y promoviendo políticas para el desarrollo de las ciencias, las humanidades, las artes y las tecnologías, contribuyendo al desarrollo
+    cultural, social y económico de la región y el páis.</string>
+    <string name="infoVRIP2">La Vicerrectoría De Investigación y Postgrado, cuenta con las siguientes salas:\u000A\u000A* Sala De Estudio.\u000A\u000A* Oficinas
+    para el equipo de VRIP.\u000A\u000A* Sala EG-1 y EG-2.</string>
+    <string name="investigadores">La oficina de investigadores ubica al costado del departamento de Ciencias Básicas
+        está hecha para que algunos profesores puedan realizar algún tipo de investigación.\u000A\u000AAdemás, en
+        su interior se encuentran secretarias para gestionar y agendar citas con los siguientes profesores
+        del Departamento de Ciencias Básicas:\u000A\u000A* Dr. Gerardo Cabello.\u000A\u000A* Dr. Claudio Collado.\u000A\u000A* Dr. Anibal Coronel.\u000A\u000A* Patricio Cumsille.\u000A\u000A* Dr.
+    Luis Fritz.\u000A\u000A* Mg. Elías Irazoqui.\u000A\u000A* Dr. Luis Lillo.\u000A\u000A* Clauido Megí.\u000A\u000A* Dr. Luis Moreno.\u000A\u000A* Dr.
+    Jairo Navarrete.\u000A\u000A* Dr. Andrés Rodriguez.\u000A\u000A* Dr. Fernando Toledo.\u000A\u000A* Dr. Carlos Torres.\u000A\u000A* Mg.
+    Gijsbertus Van der Veer.\u000A\u000A* Dra. Marcela Vidal. \u000A\u000A* Dr. Cristian Villavicencio.\u000A\u000A* Dr. Enrique Werner.\u000A\u000A</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_update_marker">Map</string>
+
+    <string name="ingles">* Clases para estudiantes que tengan ramos de inglés.\u000A\u000A* Clases de pregrado.\u000A\u000A* Test
+    de conocimiento relevante.\u000A\u000A* Test de inglés para docentes de la Universidad.\u000A\u000A* Test a funcionarios para ingresar.\u000A\u000A* Formación
+    integral.\u000A\u000A* Enseñar español a gente de intercambio.\u000A\u000A* Se enseñan otros idiomas como Francés y Alemán.</string>
+
+    <string name="webhost">https://saccharoid-shelters.000webhostapp.com</string>
+</resources>
+

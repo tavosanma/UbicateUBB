@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.ubiobio.chillan.ubicateubb">
+
+    <!-- Permission for the APP while it is running -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Provide a good location -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Provide permission of internet -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- monitor connections of red in general -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- administer all aspects of the connectivity wifi in particular -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- to handle wifi changes -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- to handle network changes -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.camera2.full" />
+
+
+    <!-- Initializing application -->
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ubb2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ubb2"
+        android:supportsRtl="true"
+        android:theme="@style/sinbar">
+
+        <!-- different screens or interfaces -->
+        <activity
+            android:name=".Splash"
+            android:theme="@style/sinbar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapaUniversidad"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_mapa_universidad"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".FacultadDeCienciasEmpresariales"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CreateMarker"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_create_marker"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".LoginAdmin"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".UpdateAndDeleteMarker"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_update_marker"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AcademicosDelDepartamentoDeCienciasBasicas"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".AdministracionCentral"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".AulasA"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".AulasB"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".AulasC"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".AulasD"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".AulasE"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".BibliotecaPrincipal"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CabinaDeVigilanciaDeLaUniversidadDelBioBio"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CafeteriaUniversidadDelBioBio"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CamarinesUBB"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CanchaDeFootballDisenioGrafico"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CanchasDeTenis"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CasaPatronal"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CasinoMartaColvin"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CasinoUBB"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".CentroDeSimulacionDeEnfermeria"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".DepartamentoDeCienciasBasicas"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".DireccionDeDesarrolloEstudiantil"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".DisenioGrafico"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".EstadioUBB"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FacultadDeCienciasDeLaSaludYDeLosAlimentos"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".AulaMagnaFernandoMay"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FederacionUniversidadDelBioBio"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".GimnasioCentralFernandoMay"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".GimnasioMultitaller"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".LECYCA"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".MuseoMartaColvin"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".NuevoDepartamentoDeCienciasBasicas"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".LaboratorioDeProcesosDeAlimentos"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".LaboratoriosCentralesDeComputacion"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Psicologia"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".SistemaDeLavanderia"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".VRIP"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".OficinaDePartes"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".MarcadorAddedForAPP"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FunctionsToAdminister"
+            android:label="@string/title_activity_functions_to_administer"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/sinbar" />
+        <activity
+            android:name=".AdminConfiguration"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".NuevoEdificioDeInvestigadores"
+            android:screenOrientation="fullSensor" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <activity
+            android:name=".adMob"
+           ></activity>
+    </application>
+
+</manifest>

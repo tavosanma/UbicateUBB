@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateAndDeleteMarker">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        tools:context=".UpdateAndDeleteMarker" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="* Título:"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/negro"
+                    android:layout_marginLeft="5dp"
+                    android:inputType="text"
+                    android:windowSoftInputMode="adjustPan"
+                    android:textSize="17dp"
+                    android:ems="10"
+                    android:enabled="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="* Subtítulo:"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditTextSnippet"
+                    android:layout_width="wrap_content"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/negro"
+                    android:inputType="text"
+                    android:windowSoftInputMode="adjustPan"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="* Latitud:"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditTextLatitude"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/negro"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="17dp"
+                    android:windowSoftInputMode="adjustPan"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="* Longitud:"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditTextLongitude"
+                    android:layout_width="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="@color/negro"
+                    android:windowSoftInputMode="adjustPan"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="* Información 1:"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditTextInformation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/negro"
+                    android:textSize="17dp"
+                    android:windowSoftInputMode="adjustPan"
+                    android:layout_marginLeft="5dp"
+                    android:inputType="textMultiLine|text"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="* Información 2:"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditTextInformationtwo"
+                    android:textColor="@color/negro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:inputType="textMultiLine|text"
+                    android:windowSoftInputMode="adjustPan"
+                    android:textSize="17dp"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="* Link:"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditTextLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:inputType="text"
+                    android:textColor="@color/negro"
+                    android:windowSoftInputMode="adjustPan"
+                    android:textSize="17dp"
+                    android:ems="10" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/ButtonDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/ButtonUpdate"
+                    android:layout_marginStart="23dp"
+                    android:text="Borrar" />
+
+
+                <Button
+                    android:id="@+id/ButtonUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/ButtonReturn"
+                    android:layout_centerHorizontal="true"
+                    android:text="Actualizar" />
+
+                <Button
+                    android:id="@+id/ButtonReturn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="19dp"
+                    android:text="@string/returnn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

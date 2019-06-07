@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapaUniversidad">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/MostrarMarcadores"
+            android:enabled="false"
+            android:text="Marcadores"
+            android:layout_height="wrap_content" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context=".CreateMarker" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="* Título:"
+                    android:textColor="@color/negro"
+                    android:textSize="17dp" />
+
+                <EditText
+
+                    android:id="@+id/EditTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/negro"
+                    android:inputType="text"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/map"
+                    android:layout_marginLeft="5dp"
+                    android:ems="10"
+                    android:textSize="17dp" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="* Subtítulo:"
+                android:textSize="17dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/EditTextSnippet"
+                android:textSize="17dp"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/negro"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/EditTextTitle" />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="* Latitud:"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/negro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/EditTextLatitude"
+                    android:textSize="17dp"
+                    android:ems="10"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/negro"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/EditTextTitle"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="* Longitud:"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/negro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/EditTextLongitude"
+                    android:textSize="17dp"
+                    android:ems="10"
+                    android:textColor="@color/negro"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/EditTextTitle"
+                    />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="* Información lugar:"
+                android:textSize="17dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/EditTextInformation"
+                android:layout_width="wrap_content"
+                android:ems="10"
+                android:maxLength="500"
+                android:hint="500 Carácteres Máx"
+                android:textColorHint="@color/negro"
+                android:textColor="@color/negro"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine|text" />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="* Información Adicional:"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/negro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/EditTextInformationTwo"
+                    android:layout_width="wrap_content"
+                    android:ems="10"
+                    android:maxLength="500"
+                    android:hint="500 Carácteres Máx"
+                    android:textColorHint="@color/negro"
+                    android:textColor="@color/negro"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine|text" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="* Link:"
+                    android:textSize="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/negro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/EditTextLink"
+                    android:layout_width="wrap_content"
+                    android:ems="10"
+                    android:maxLength="500"
+                    android:hint="www.ubb.cl"
+                    android:textColorHint="@color/negro"
+                    android:textColor="@color/negro"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/ButtonCreate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/create" />
+
+            <Button
+                android:id="@+id/ButtonReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:text="@string/returnn" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "448606053171",
+    "firebase_url": "https://ubicateubb-6a243.firebaseio.com",
+    "project_id": "ubicateubb-6a243",
+    "storage_bucket": "ubicateubb-6a243.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448606053171:android:04bbcb6514c5cb12",
+        "android_client_info": {
+          "package_name": "cl.ubiobio.chillan.ubicateubb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448606053171-oe8nt0n1btmcg6ga431uto0va4m3eafp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcBmS3jXMIexLYf7LU1mAnLYG3NUFYo5g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

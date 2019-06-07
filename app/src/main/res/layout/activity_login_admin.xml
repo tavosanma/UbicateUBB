@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background"
+    tools:context=".LoginAdmin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:layout_above="@+id/EditTextUser"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_ubb" />
+
+    <EditText
+        android:id="@+id/EditTextUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditTextPassword"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@mipmap/user"
+        android:inputType="text"
+        android:ems="8"
+        android:windowSoftInputMode="adjustPan"
+        android:hint="Usuario"
+        android:textColorHint="@color/azul"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="206dp"
+        android:drawableLeft="@mipmap/pass"
+        android:windowSoftInputMode="adjustPan"
+        android:ems="8"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/azul"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:background="@drawable/button_background"
+        android:ems="10"
+        android:text="@string/enter"
+        android:textColor="@color/negro"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/button_background"
+        android:ems="10"
+        android:text="@string/returnn"
+        android:textColor="@color/negro"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
